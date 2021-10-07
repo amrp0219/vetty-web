@@ -1,20 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Accent, Primary } from '../../Colours';
-
-export interface IInputProps {
-  id: string;
-  name: string;
-  placeholder: string;
-  type?: string;
-  role?: string;
-}
+import { Accent, Primary } from '../../Theme/Colours';
+import { IInputProps } from './types';
 
 export const StyledInput = styled.input`
   width: 100%;
   border: none;
-  padding: 10px 15px;
-  border-radius: 20px;
+  padding: 15px 20px;
+  border-radius: 25px;
   border: 1px solid ${Primary.text};
   outline: none;
   &:focus {

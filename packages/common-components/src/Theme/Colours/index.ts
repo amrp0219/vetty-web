@@ -11,4 +11,9 @@ export const Secondary = {
 
 export const Accent = {
   main: '#CDDC39',
+  text: '#ffffff',
+};
+
+export const Shadows = {
+  main: 'rgba(0,0,0,.1)',
 };
