@@ -20,9 +20,17 @@
     "jsx": "react-jsx",
     "outDir": "./dist",
     "declaration": true,
-    "declarationDir": "./dist"
+    "declarationDir": "./dist",
+    "noEmit": true
   },
-  "exclude": ["./dist", "src/tests/"],
+  "files": [
+    "src/index.ts",
+    "src/react-app-env.d.ts"
+  ],
+  "exclude": [
+    "**/*.test",
+    "**/*.stories"
+  ],
   "include": [
     "src"
   ]
